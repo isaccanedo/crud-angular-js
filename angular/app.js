@@ -6,9 +6,9 @@ crud.controller("controller", function ($scope) {
    $scope.clienteSelecionado = {};
 
    $scope.clientes = [
-       {nome: "Michael Douglas", telefone: 111111111, email: "michael@gmail.com"},
-       {nome: "Ana Barbera", telefone: 222222222, email: "anabarbera@gmail.com"},
-       {nome: "Vanessa Briech", telefone: 333333333, email: "vanessabriech@gmail.com"},
+       {nome: "Isac Canedo", telefone: 111111111, email: "isac@example.com"},
+       {nome: "Fulano", telefone: 222222222, email: "fulano@example.com"},
+       {nome: "Beltrano", telefone: 333333333, email: "beltrano@example.com"},
    ];
    
    $scope.salvar = function () {
